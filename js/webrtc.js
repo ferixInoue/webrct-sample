@@ -16,7 +16,7 @@ RTCPeerConnection       = window.RTCPeerConnection || window.webkitRTCPeerConnec
 RTCSessionDescription   = window.RTCSessionDescription || window.webkitRTCSessionDescription || window.mozRTCSessionDescription;
 
 
-let wsUrl = 'ws://3.91.172.5:9000';
+let wsUrl = 'wss://cloud.achex.ca/web-chat-app-1';
 let ws    = new WebSocket(wsUrl);
 ws.onopen = function(evt) {
   console.log('ws open()');
