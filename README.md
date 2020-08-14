@@ -1,2 +1,1 @@
-# webrct-sample
-webrct
+webrtc-video-chat-app
